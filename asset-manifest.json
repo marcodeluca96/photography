@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.4656d9e7.css",
-    "main.js": "/static/js/main.50614139.js",
-    "static/js/787.c7d1202c.chunk.js": "/static/js/787.c7d1202c.chunk.js",
-    "static/media/Mars.ttf": "/static/media/Mars.dec633a3605714802e38.ttf",
-    "index.html": "/index.html",
-    "main.4656d9e7.css.map": "/static/css/main.4656d9e7.css.map",
-    "main.50614139.js.map": "/static/js/main.50614139.js.map",
-    "787.c7d1202c.chunk.js.map": "/static/js/787.c7d1202c.chunk.js.map"
+    "main.css": "/photography/static/css/main.c60d79f7.css",
+    "main.js": "/photography/static/js/main.12cdbea1.js",
+    "static/js/787.c7d1202c.chunk.js": "/photography/static/js/787.c7d1202c.chunk.js",
+    "static/media/Mars.ttf": "/photography/static/media/Mars.dec633a3605714802e38.ttf",
+    "index.html": "/photography/index.html",
+    "main.c60d79f7.css.map": "/photography/static/css/main.c60d79f7.css.map",
+    "main.12cdbea1.js.map": "/photography/static/js/main.12cdbea1.js.map",
+    "787.c7d1202c.chunk.js.map": "/photography/static/js/787.c7d1202c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4656d9e7.css",
-    "static/js/main.50614139.js"
+    "static/css/main.c60d79f7.css",
+    "static/js/main.12cdbea1.js"
   ]
 }
