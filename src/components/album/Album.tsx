@@ -3,20 +3,20 @@ import { IPhoto } from '../../types/IPhoto';
 
 const photo: IPhoto[] = [
   {
-    src: '../../img/img (1).jpeg',
+    src: '/src/img/img1.jpeg',
     width: 4000,
     height: 5000,
   },
-  {
-    src: '../../img/img (2).jpeg',
-    width: 4000,
-    height: 5000,
-  },
-  {
-    src: '../../img/img (3).jpeg',
-    width: 4000,
-    height: 5000,
-  },
+  //   {
+  //     src: '../../img/img2.jpeg',
+  //     width: 4000,
+  //     height: 5000,
+  //   },
+  //   {
+  //     src: '../../img/img (3).jpeg',
+  //     width: 4000,
+  //     height: 5000,
+  //   },
 ];
 
 const Album = () => {
