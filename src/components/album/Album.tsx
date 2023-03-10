@@ -1,26 +1,32 @@
-import { PhotoAlbum } from 'react-photo-album';
-import { IPhoto } from '../../types/IPhoto';
+import PhotoAlbum, { RenderContainer } from 'react-photo-album';
+import { photos } from '../../data/photos';
 
-const photo: IPhoto[] = [
-  {
-    src: '/src/img/img1.jpeg',
-    width: 4000,
-    height: 5000,
-  },
-  //   {
-  //     src: '../../img/img2.jpeg',
-  //     width: 4000,
-  //     height: 5000,
-  //   },
-  //   {
-  //     src: '../../img/img (3).jpeg',
-  //     width: 4000,
-  //     height: 5000,
-  //   },
-];
+const renderContainer: RenderContainer = ({
+  containerProps,
+  children,
+  containerRef,
+}) => (
+  <div
+    style={{
+      padding: '20px',
+    }}
+  >
+    <div ref={containerRef} {...containerProps}>
+      {children}
+    </div>
+  </div>
+);
 
 const Album = () => {
-  return <PhotoAlbum layout='masonry' photos={photo} />;
+  return (
+    <div className='photos__container'>
+      <PhotoAlbum
+        layout='masonry'
+        photos={photos}
+        renderContainer={renderContainer}
+      />
+    </div>
+  );
 };
 
 export default Album;
