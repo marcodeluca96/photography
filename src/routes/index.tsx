@@ -4,7 +4,7 @@ import PhotographyPage from '../pages/PhotographyPage';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/photography',
     element: <PhotographyPage />,
     errorElement: <ErrorPage />,
   },

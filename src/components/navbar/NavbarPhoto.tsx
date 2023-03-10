@@ -14,7 +14,7 @@ const NavbarPhoto = () => {
     >
       <div className='navbar-photo__menu'>
         <CameraAltOutlinedIcon />
-        <Link to={'/'} className='navbar-photo__title'>
+        <Link to={'/photography'} className='navbar-photo__title'>
           Marco De Luca
         </Link>
         <div className='navbar-photo__tabs'>
