@@ -21,9 +21,9 @@ const NavbarPhoto = () => {
           <Link to='about' className='navbar-photo__tabs-item'>
             About
           </Link>
-          <Link to='contact' className='navbar-photo__tabs-item'>
+          {/* <Link to='contact' className='navbar-photo__tabs-item'>
             Contact
-          </Link>
+          </Link> */}
         </div>
       </div>
       <div className='navbar-photo__right'>
