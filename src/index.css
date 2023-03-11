@@ -3,3 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* chrome, safari */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* edge */
+body {
+  -ms-overflow-style: none;
+}
+/* firefox */
+html {
+  scrollbar-width: none;
+}
