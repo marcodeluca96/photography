@@ -18,7 +18,7 @@ const NavbarPhoto = () => {
           Marco De Luca
         </Link>
         <div className='navbar-photo__tabs'>
-          <Link to='about' className='navbar-photo__tabs-item'>
+          <Link to='/photography/about' className='navbar-photo__tabs-item'>
             About
           </Link>
           {/* <Link to='contact' className='navbar-photo__tabs-item'>
